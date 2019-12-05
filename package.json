@@ -1,0 +1,29 @@
+{
+  "name": "team3project",
+  "version": "1.0.0",
+  "description": "project nodejs with express(ejs)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnamohanparuchuri/team3project.git"
+  },
+  "keywords": [
+    "express",
+    "with",
+    "node",
+    "js"
+  ],
+  "author": "team3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishnamohanparuchuri/team3project/issues"
+  },
+  "homepage": "https://github.com/krishnamohanparuchuri/team3project#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
