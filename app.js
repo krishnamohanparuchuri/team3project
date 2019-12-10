@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
+app.set('views', path.join(__dirname, 'views'));
 
 app.use('/static',express.static('public'));
 app.set('view engine','ejs');
@@ -24,6 +26,5 @@ app.get('/signup',function(req,res){
 app.get('/contactus',function(req,res){
     res.render('contactus');
 });
-
 
 app.listen(8080);
