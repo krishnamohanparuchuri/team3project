@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/static/css/home.css">
-    <title>Document</title>
-</head>
-<body>
-    <header> This is a project in EJS</header>
-    <nav class ="nav">
+<%- include ('partials/header'); %>   
+ <%- include ('partials/nav'); %>
+ <img src="/static/images/image4.jpg" width=90% height="600px" alt ="backgroundimage">
 
-        <ul>
-           <li> <a href= "home"> Home </a></li>
-           <li><a href= "aboutus"> About Us </a></li>
-           <li> <a href= "login"> Login </a></li>
-           <li style ="float :right"> <a href= "signup"> Sign UP </a></li>
-           <li style = "float : right"> <a href= "contactus"> Contact Us </a></li>        
-        </ul>
-    </nav>
-</body>
-</html>
+<%- include ('partials/footer'); %>
